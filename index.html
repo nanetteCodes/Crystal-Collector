@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Collector</title>
+
+   
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+     <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+    <!-- Javascript File -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="page-header">
+        <h1>Crystal Collector</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+    <!--buttons displayed as crystals-->
+    <img id="crystalBtn1" class="button img-responsive" src="assets/images/Quartz-crystal.png" alt="Quartz crystal">
+    
+    <img id="crystalBtn2" class="button img-responsive" src="assets/images/Emerald.png" alt="Emerald crystal">
+    
+    <img id="crystalBtn3" class="button img-responsive" src="assets/images/Amethyst.png" alt="Amethyst crystal">
+    
+    <img id="crystalBtn4" class="button img-responsive" src="assets/images/Zircon.png" alt="Zircon crystal"> 
+      </div>
+    </div>
+    <div class="row">
+      <div class="page-header">
+      </div>
+    </div>
+    
+    
+    <div class="row" id="main">
+      <!-- computer random number & users number -->
+      <div class="col-lg-5 panel panel-default panel-info"" id="numbers">        
+        <h3>Match This Number: <span class="compRandom"></span></h3>
+        <br>
+        <h3>Your Total Number: <span class="guessdisplay">0</span></h3> 
+      </div>    
+      <div class="col-lg-2"></div> 
+      <!-- score board-->
+      <div class="col-lg-5 panel panel-default panel-info stats" id="score">       
+        <h3>Wins: <span id="winsdisplay">0</span></h3>
+        <br>
+        <h3>Losses: <span id="lossesdisplay">0</span></h3>                 
+      </div>
+    </div>
+  </div>
+
+  <!--footer-->
+  <div class="container-fluid">
+    <nav class="navbar navbar-default navbar-fixed-bottom" id="footer"> 
+          <p style="text-align: center">&copy; Copywrite 2017 Nanette Julius</p>
+    </nav>
+  </div>
+
+    <!--Jquery library-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="assets/javascript/javascript.js"></script>
+</body>
+
+</html> 

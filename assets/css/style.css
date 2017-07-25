@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  
+}
+
+body {
+    background: url("../images/crystalsBackground.jpg");
+    margin-bottom: 60px 
+}
+
+h1 {
+  font-family: 'Megrim', cursive;
+  font-size: 80px;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  color: purple;
+}
+
+.button {
+  display: inline-block;
+  height: 200px;
+}
+
+#numbers {
+  float: left;
+  margin:0;
+  opacity: 0.5;  
+}
+
+#score {
+  float:right;
+  opacity: 0.5;  
+}
+
+#footer {
+  opacity: 0.6;
+}
+
