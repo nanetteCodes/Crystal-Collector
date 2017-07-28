@@ -1,4 +1,4 @@
-# week-4-game
+Crystal Collector
 Here's how the app works:
 
 There will be four crystals displayed as buttons on the page.
