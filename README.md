@@ -1,4 +1,5 @@
 Crystal Collector
+view here: http://nanettecodes.github.io/Crystal-Collector/
 Here's how the app works:
 
 There will be four crystals displayed as buttons on the page.
